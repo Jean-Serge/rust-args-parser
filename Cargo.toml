@@ -1,0 +1,6 @@
+[package]
+name = "args-parser"
+version = "0.1.0"
+authors = ["Jean-Serge Monbailly <j.monbailly@orange.fr>"]
+
+[dependencies]
