@@ -19,11 +19,10 @@ impl Arguments {
     }
 
     fn parse_args(&self) -> Result<Arguments, &str> {
-        let current_args = std::env::args();
+        //let current_args = std::env::args();
         let parsed_args = Arguments::new();
 
-        //Ok(parsed_args);
-        std::result::Result::Err("You should not do this.");
+        Ok(parsed_args)
     }
 }
 
