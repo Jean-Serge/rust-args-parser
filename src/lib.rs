@@ -1,4 +1,4 @@
-mod input;
+pub mod input;
 
 #[cfg(test)]
 mod test {
